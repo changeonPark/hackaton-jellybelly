@@ -19,7 +19,7 @@ function AppReady() {
       <header className="App-header">
         <MetaMaskButton theme={"light"} color="white"></MetaMaskButton>
         <div className="flex flex-col gap-4">
-          <div className="f">{isConnecting}</div>
+          <div className="f">{isConnecting.toString()}</div>
           <div>status = {status}</div>
           <div>address = {address}</div>
         </div>
