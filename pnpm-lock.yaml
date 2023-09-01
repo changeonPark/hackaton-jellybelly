@@ -8,12 +8,18 @@ dependencies:
   '@metamask/sdk-react':
     specifier: ^0.5.6
     version: 0.5.6(@types/react@18.2.15)(react-dom@18.2.0)(react-native@0.71.13)(react@18.2.0)(typescript@5.2.2)
+  '@wagmi/chains':
+    specifier: ^1.8.0
+    version: 1.8.0(typescript@5.2.2)
   react:
     specifier: ^18.2.0
     version: 18.2.0
   react-dom:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
+  wagmi:
+    specifier: ^1.3.11
+    version: 1.3.11(@types/react@18.2.15)(react-dom@18.2.0)(react-native@0.71.13)(react@18.2.0)(typescript@5.2.2)(viem@1.9.3)
 
 devDependencies:
   '@types/react':
@@ -3265,7 +3271,7 @@ packages:
   /@types/connect@3.4.35:
     resolution: {integrity: sha512-cdeYyv4KWoEgpBISTxWvqYsVy444DOqehiF3fM3ne10AmJ62RSyNkUnxMJXHQWRQQX2eR94m5y1IZyDwBjV9FQ==}
     dependencies:
-      '@types/node': 12.20.55
+      '@types/node': 20.5.7
     dev: false
 
   /@types/debug@4.1.8:
@@ -3368,7 +3374,7 @@ packages:
   /@types/ws@7.4.7:
     resolution: {integrity: sha512-JQbbmxZTZehdc2iszGKs5oC3NFnjeay7mtAWrdt7qNtAVK0g19muApzAy4bm9byz79xa2ZnO/BOBC2R8RC5Lww==}
     dependencies:
-      '@types/node': 12.20.55
+      '@types/node': 20.5.7
     dev: false
 
   /@types/ws@8.5.5:
