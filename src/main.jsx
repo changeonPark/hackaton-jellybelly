@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       sdkOptions={{
         dappMetadata: {
           name: "JellyBelly",
-          url: "http://192.168.0.122:5173",
+          url: "https://metamask.app.link/dapp/main--effulgent-lollipop-b28925.netlify.app/",
         },
         checkInstallationImmediately: false,
       }}
