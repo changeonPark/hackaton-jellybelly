@@ -11,6 +11,7 @@
     "prettier:fix": "prettier --write src/**/*"
   },
   "dependencies": {
+    "@metamask/sdk-react": "^0.5.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
