@@ -17,6 +17,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           url: window.location.host,
         },
         checkInstallationImmediately: false,
+        useDeeplink: false,
       }}
     >
       <App />
