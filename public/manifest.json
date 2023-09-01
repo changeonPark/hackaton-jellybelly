@@ -1,7 +1,8 @@
 {
   "name": "JellyBelly",
+  "version": "0.0.1",
   "short_name": "JB",
-  "start_url": "",
+  "start_url": "https://main--effulgent-lollipop-b28925.netlify.app",
   "display": "standalone",
   "description": "PWA JellyBelly",
   "background_color": "#FFFFFF",
