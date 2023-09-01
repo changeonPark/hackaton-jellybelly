@@ -7,7 +7,11 @@ import { MetaMaskProvider } from "@metamask/sdk-react"
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <MetaMaskProvider
+      debug
       sdkOptions={{
+        logging: {
+          developerMode: false,
+        },
         dappMetadata: {
           name: "JellyBelly",
           url: window.location.host,
